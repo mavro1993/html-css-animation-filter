@@ -1,0 +1,166 @@
+.ex-1-square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+
+/* svolgimento es 1  */
+
+transition: 3s;
+}
+
+
+.ex-1-square:hover {
+    background-color: red;
+}
+
+.ex-2-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+/* svolgimento es 2  */
+
+    transition: 3s;
+}
+
+.ex-2-square:active {
+    width: 80%;
+}
+
+.ex-3-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+/* svolgimento es 3 */
+
+    transition: 3s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+.ex-4-square {
+    width: 100px;
+    height: 100px;
+    background: red;
+
+    /* svolgimento es 4  */
+
+    transition: 3s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+.ex-5-square {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background: red;
+
+
+/* svolgimento es 5  */
+
+transition: 3s
+
+}
+
+.ex-5-square:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.ex-5-square:active {
+    width: 40px;
+    height: 40px;
+}
+
+.ex-6-img, .ex-7-img, .ex-8-img {
+    width: 500px;
+
+
+/* svolgimento es 6  */
+
+transition: 3s;
+
+}
+
+.ex-6-img:hover {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+
+/* svolgimento es 7  */
+
+transition: 3s;
+
+}
+
+.ex-7-img:hover {
+    width: 250px;
+}
+
+.ex-7-img:active {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+/* svolgimento es 8  */
+
+.ex-8-img:hover {
+    width: 600px;
+}
+
+.ex-8-img:active {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.ex-8-img:hover {
+    border-radius: 10%;
+}
+
+.ex-9-img {
+    margin: 50px 100px;
+    width: 400px;
+
+
+/* svolgimento es 9 */
+
+    transition: 3s 
+
+}
+
+.ex-9-img:hover {
+    width: 500px;
+}
+
+.ex-9-img:active {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.ex-9-img {
+    border-radius: 10 %
+}
+
+.ex-9-img:active {
+    width: 250px;
+}
+
+.ex-10-icon {
+    font-size: 60px;
+
+
+/* svolgimento es 10  */
+
+transition: 3s;
+
+}
+
+.ex-10-icon:active {
+    transform: rotateY(360deg)
+}
